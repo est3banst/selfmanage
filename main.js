@@ -18,11 +18,11 @@ const createTask = (taskText) => {
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.classList.add("checkbox")
-    
+    checkbox.classList.add("checkbox");
+  
     const taskTextSpan = document.createElement("span");
+    taskTextSpan.classList.add("span-text");
     taskTextSpan.textContent = taskText;
-
 
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";

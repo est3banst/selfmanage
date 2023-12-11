@@ -1,0 +1,24 @@
+:root {
+    --main-theme:#c8c8c8;
+    --ligth-theme:#e3e3e3;
+    --dark-theme:#adadad;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-notes {
+    max-width: 660px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+    background-color: var(--main-theme);
+    border-radius: 6px;
+}
+h2 {
+    background-color: var(--ligth-theme);
+    padding: .5rem 1.2rem;
+    border-radius: 6px;
+}
